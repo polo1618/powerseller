@@ -1,0 +1,15 @@
+Théoriquement le visiteur non inscrit pourrait ajouter des articles au panier
+et ne s'inscrire plus tard.
+Aucquel cas il faudrait utiliser des cookies pour conserver son panier durant la visite non authentifié
+
+
+----BDD-----
+
+Création d'un attribut "prix_commande" non normalisé car retrouvable via le poids le nombre d'article et de commande.
+Cependant pour consulter les commandes c'est plus facile.
+De meme si y'a des reductions ou je ne sais quelle merde c'est pratique.
+
+Trigger ??
+
+Normalement il faudrait creer une table photos reliée a produit pour pouvoir avoir plusieurs photos par produit.
+
